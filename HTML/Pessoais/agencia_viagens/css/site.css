@@ -1,0 +1,15 @@
+.div_pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(24, 207, 161);
+    min-height: 100vh;
+}
+.div_filho {
+    padding: 15px;
+    background-color: rgb(255, 165, 120);
+    min-height: 65vh;
+    width: 90vw;
+    max-width: 800px;
+}

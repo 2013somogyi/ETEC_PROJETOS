@@ -1,0 +1,41 @@
+.div_pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #2b2b2b, #c2c2c2);
+    padding: 20px;
+}
+
+.div_filho {
+    min-width: 65vw;
+    height: 500px;
+    background-color: rgb(154, 201, 245);
+    padding: 15px;
+}
+
+body {
+    background: linear-gradient(180deg, #2b2b2b, #c2c2c2);
+}
+
+.div_filho form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.erro-input {
+    border: 2px solid rgb(255, 64, 64);
+    background-color: #dc8383;
+}
+
+.mensagem-erro{
+    display: none;
+    color: rgb(255, 64, 64);
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.mostrar-erro{
+    display: block;
+}

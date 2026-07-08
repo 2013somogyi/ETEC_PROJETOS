@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/site.css">
+        <script defer src="./js/site.js"></script>
+        <title>RGB</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="div_pai">
+                <div class="div_filho rounded">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center">Escolha sua cor RGB</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Escolha a cor de fundo</h3>
+                        </div>
+                    </div>
+
+                    <!-- Inputs -->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="">Vermelho (R)</label>
+                            <input type="range" id="rg-r" oninput="changeColor()" min="0" max="255">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Verde (G)</label>
+                            <input type="range" id="rg-g" oninput="changeColor()" min="0" max="255"> 
+                        </div>
+                        <div class="col-md-2">
+                            <label for="">Azul (B)</label>
+                            <input type="range" id="rg-b" oninput="changeColor()" min="0" max="255">
+                        </div>
+
+                        <!-- Div -->
+                        <div class="col-md-3">
+                             <div class="divColor rounded" id="divColor">
+                                <h1 class="textoDiv" id="textoDiv">Texto</h1>
+                             </div>
+                        </div>
+                    </div>
+                        <!-- TextBox -->
+                    <div class="row">
+                        <div class="col-md-3">
+                             <input type="text" id="txt-r" readonly class="txt-view" size="1">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="txt-g" readonly class="txt-view" size="1">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="txt-b" readonly class="txt-view" size="1">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 >Escolha a cor do texto</h3>
+                        </div>
+                    </div>
+
+                    <!-- Inputs -->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="">Vermelho (R)</label>
+                            <input type="range" id="rg-rtxt" oninput="changeTxt()" min="0" max="255">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Verde (G)</label>
+                            <input type="range" id="rg-gtxt" oninput="changeTxt()" min="0" max="255"> 
+                        </div>
+                        <div class="col-md-2">
+                            <label for="">Azul (B)</label>
+                            <input type="range" id="rg-btxt" oninput="changeTxt()" min="0" max="255">
+                        </div>
+                        <!-- TextBox -->
+                    <div class="row">
+                        <div class="col-md-3">
+                             <input type="text" id="txt-rtxt" readonly class="txt-view" size="1">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="txt-gtxt" readonly class="txt-view" size="1">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="txt-btxt" readonly class="txt-view" size="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

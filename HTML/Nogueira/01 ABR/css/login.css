@@ -1,0 +1,27 @@
+input {
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    font-size: 30px;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    text-align: center;
+}
+button {
+    font-size: 40px;
+    background-color: rgb(23, 197, 23);
+}
+input {
+    font-size: 30px;
+}

@@ -1,0 +1,14 @@
+.div_pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(201, 201, 201);
+}
+
+.div_filho {
+    width: 65vw;
+    height: 65vh;
+    background: rgb(223, 212, 64);
+    padding: 20px;
+}

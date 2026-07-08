@@ -1,0 +1,30 @@
+.divPai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    min-height: 100vh;
+    background-color: rgb(70, 70, 211);
+}
+
+.divFilho {
+    min-width: 65vw;
+    height: 500px;
+    background-color: rgb(154, 201, 245);
+    padding: 15px;
+}
+.divFilho1 {
+    min-width: 65vw;
+    height: auto;
+    background-color: rgb(154, 201, 245);
+    padding: 15px;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5;
+}
+
+body {
+    background-color: rgb(46, 42, 42);
+}

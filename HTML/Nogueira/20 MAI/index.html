@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <script defer src="./js/form.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <form method="post">
+                <div class="div_pai">
+                    <div class="div_filho"> 
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>Cadastro</h1>
+                            </div>
+                        </div> 
+
+                        <h4>Dados Pessoais</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="" class="ast">Nome </label>
+                                <input id="nome" type="text" class="form-control" oninput="formataNome(this)" required>
+                                <span class="erro-text">Nome é obrigatório</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="ast">Data de Nascimento </label>
+                                <input id="dataNascimento" type="date" class="form-control">
+                                <span class="erro-text">Data de Nascimento é obrigatória</span>
+                            </div>
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-md-3">
+                                <label for="" class="ast">CPF </label>
+                                <input id="cpf" type="text" class="form-control" maxlength="14" oninput="formataCPF(this)" required>
+                                <span class="erro-text">CPF é obrigatório</span>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="" class="ast">RG </label>
+                                <input id="rg" type="text" class="form-control" maxlength="12" oninput="formataRG(this)" required>
+                                <span class="erro-text">RG é obrigatório</span>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="" class="ast">Estado Civil </label>
+                                <select name="" id="estadoCivil" class="form-control">
+                                    <option value="" selected hidden disabled>Selecione</option>
+                                    <option value="Casado">Casado</option>
+                                    <option value="Divorciado">Divorciado</option>
+                                    <option value="Solteiro(a)">Solteiro(a)</option>
+                                    <option value="Viúvo(a)">Viúvo(a)</option>
+                                </select>
+                                <span class="erro-text">Estado Civil é obrigatório</span>
+                            </div> 
+                            <div class="col-md-3">
+                                <label for="" class="ast">Sexo </label>
+                                <select name="" id="sexo" class="form-control">
+                                    <option value="" selected hidden disabled>Selecione</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                                <span class="erro-text">Sexo é obrigatório</span>
+                            </div>
+                        </div>
+                        
+                        <h4>Informações de Contato</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="" class="ast">Telefone </label>
+                                <input id="telefone" type="text" class="form-control" maxlength="15" oninput="formataTelefone(this)" required>
+                                <span class="erro-text">Telefone é obrigatório</span>
+                            </div>
+                            <div class="col-md-4">
+                                <label for=""  >Telefone Fixo (opcional) </label>
+                                <input id="telefoneFixo" type="text" class="form-control" maxlength="15" oninput="formataTelefone(this)">
+                                <span class="erro-text">Telefone Fixo é obrigatório</span>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="" class="ast">E-mail </label>
+                                <input id="email" type="email" class="form-control">
+                                <span class="erro-text">E-mail é obrigatório</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="" class="fs-6 ast">CEP</label>
+                                <input id="cep" name="cep" type="text" class="form-control" onblur="pesquisacep(this.value);" oninput="formataCEP(this)" required>
+                                <span class="erro-text">CEP é obrigatório</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="fs-6 ast">Nome da rua</label> 
+                                <input id="rua"  name="rua" type="text" class="form-control" required>
+                                <span class="erro-text">Nome da rua é obrigatório</span>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="" class="ast">Número</label> 
+                                <input id="numero" name="numero" type="text" class="form-control" required>
+                                <span class="erro-text">Número é obrigatório</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="" class="fs-6 ast">Bairro</label>
+                                <input id="bairro" name="bairro" type="text" class="form-control" required>
+                                <span class="erro-text">Bairro é obrigatório</span>
+                            </div> 
+                            <div class="col-md-4">
+                                <label for="" class="fs-6 ast">Cidade</label>
+                                <input id="cidade" name="cidade" type="text" class="form-control" required>
+                                <span class="erro-text">Cidade é obrigatória</span>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="" class="fs-6">Estado</label>
+                                <input id="uf" name="estado" type="text" class="form-control" required>
+                                <span class="erro-text">Estado é obrigatório</span>
+                            </div>
+                        </div>
+
+                        <h4>Informações Médicas</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="" class="ast">Número SUS</label>
+                                <input id="numeroSUS" type="text" class="form-control" maxlength="18" required>
+                                <span class="erro-text">Número SUS é obrigatório</span>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="" class="ast">Convênio Médico</label>
+                                <select name="" id="convenioMedico" class="form-control">
+                                    <option value="" selected hidden disabled>Selecione</option>
+                                    <option value="Sul América">Sul América</option>
+                                    <option value="Med Plan">Med Plan</option>
+                                    <option value="Health Pro">Health Pro</option>
+                                    <option value="Revive Morto">Revive Morto</option>
+                                    <option value="Salva Vidas">Salva Vidas</option>
+                                </select>
+                                <span class="erro-text">Convênio Médico é obrigatório</span>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="" class="ast">Número Carteirinha</label>
+                                <input id="numeroCarteirinha" type="text" class="form-control" maxlength="18" required>
+                                <span class="erro-text">Número Carteirinha é obrigatório</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="" class="ast">Médico Responsável</label>
+                                <select name="" id="medicoResponsavel" class="form-control">
+                                    <option value="" selected hidden disabled>Selecione</option>
+                                    <option value="Doutor Pedro">Doutor Pedro</option>
+                                    <option value="Doutor Carlos">Doutor Carlos</option>
+                                    <option value="Doutora Beth">Doutora Beth</option>
+                                    <option value="Doutora Renata">Doutora Renata</option>
+                                </select>
+                                <span class="erro-text">Médico Responsável é obrigatório</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="uploadDocumentos">Upload Documentos</label>
+                                <input type="file" class="form-control" id="uploadDocumentos">
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="informacoesMedicas">Informações Médicas iniciais</label>
+                                <textarea name="" id="informacoesMedicas" class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 text-end">
+                                <button type="button" class="btn btn-success" onclick="addCadastro()">Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

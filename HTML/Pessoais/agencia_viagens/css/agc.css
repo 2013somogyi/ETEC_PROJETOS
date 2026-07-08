@@ -1,0 +1,30 @@
+.titulo {
+    background: linear-gradient(45deg, rgb(253, 73, 73),rgb(176, 121, 19));
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 450px;
+}
+.mid {
+    background: linear-gradient(to left, rgb(255, 215, 139), rgb(255, 184, 52));
+    display:flex;
+    flex-direction: column;
+    width: 470px;
+    padding: 10px;
+}
+.botao {
+    align-self: center;
+    width:200px;
+    padding: 10px;
+}
+body {
+    background-image: url(../img/wallpaper.avif);
+}
+.resultados {
+    background: linear-gradient(to left, rgb(255, 215, 139), rgb(255, 184, 52));
+    width: 490px;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}

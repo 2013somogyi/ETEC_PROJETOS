@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/projeto.css">
+        <script defer src="./js/projeto.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <p class="paragrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nostrum corrupti inventore ducimus nesciunt sequi minima itaque delectus explicabo laboriosam voluptate totam alias, illo ea doloremque eligendi voluptatem deserunt ad.
+        </p>
+            <!-- range determina o intervalo em que tem entrada nesse imput-->
+            <!-- min, max, e value, vao definir onde começa, onde termina, e como avança-->
+
+        <input type="range"
+        min="0"
+        max="100000"
+        value="5000"
+        id="range"
+        step="5000"
+        oninput="atualizaRange()"
+        >
+        <div id="retorno" >R$ 5000,00</div>
+    </body>
+</html>

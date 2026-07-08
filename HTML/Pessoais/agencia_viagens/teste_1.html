@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/agc.css">
+    <script defer src="./js/agc.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="top" class="top"><h1 id="titulo" class="titulo">Brazilian Travels</h1></div>
+        <div id="mid" class="mid">
+
+            <div id="dados" class="dados">
+                <label id="lb_nome" class="lb_nome">Nome: </label><input id="in_nome" class="in_nome" type="text">
+                <label id="lb_cpf" class="lb_cpf">CPF: </label><input id="in_cpf" class="in_cpf" type="text">
+            </div>
+
+            <br>
+
+            <!-- Caixa Locais -->
+            <div id="locais" class="locais">
+                <label id="lb_origem" class="lb_origem">Origem: </label>
+                <select id="origem" class="origem">
+                    <option value="">Selecione o local de origem</option>
+                    <option value="sao_paulo">São Paulo</option>
+                    <option value="curitiba">Curitiba</option>
+                    <option value="brasilia">Brasília</option>
+                    <option value="manaus">Manaus</option>
+                    <option value="salvador">Salvador</option>
+                </select>
+                
+                <label id="lb_destino" class="lb_destino">Destino: </label>
+                <select id="destino" class="destino" onchange="atualizarHoteis()">
+                    <option value="">Selecione o destino</option>
+                    <option value="rio_branco">Rio Branco</option>
+                    <option value="florianopolis">Florianópolis</option>
+                    <option value="embu_das_artes">Embu das Artes</option>
+                    <option value="miracatu">Miracatu</option>
+                    <option value="sao_lourenco">São Lourenço</option>
+                </select>
+            </div>
+
+            <br>
+
+            <!-- Caixa viagens -->
+            <div id="viagem" class="viagem">
+                <label id="lb_data" class="lb_data">Data de embarque: </label>
+                <input type="date" id="in_data">
+
+                <label id="lb_horas" class="lb_horas">Horário de embarque: </label>
+                <input type="time" id="in_horas" class="in_horas">
+
+                <label id="lb_hoteis" class="lb_hoteis">Hospedagem:</label>
+                <select id="hoteis" class="hoteis">
+                    <option value="">Selecione um hotel</option>
+                </select>
+            </div>
+
+            <br>
+
+            <!-- Caixa transportes -->
+            <div id="transportes" class="transportes">
+
+                <label id="selecao_transporte" class="selecao_transporte">Selecione o tipo de transporte:</label>
+
+                <br>
+
+                <input type="radio" id="in_onibus" class="in_onibus" name="selecao">
+                <label id="onibus" class="onibus">Ônibus</label>
+
+                <br>
+                
+                <input type="radio" id="in_aviao" class="in_aviao" name="selecao">
+                <label id="aviao" class="aviao">Avião</label>
+
+                <br>
+    
+                <label id="dias" class="dias">Quantidade de dias:</label>
+                <input type="number" id="in_dias" class="in_dias">
+
+            </div>
+            
+            <br>
+
+            <button onclick="agendar()" id="botao" class="botao">Agendar reserva</button>
+            
+        </div>
+
+        <br>
+        <!-- Caixa Resultados -->
+        <div id="resultados" class="resultados">
+
+                <div id="cx_valorTransporte" class="cx_valorTransporte">
+                    <label id="lb_valorHospedagem" class="lb_valorHospedagem">Total Transporte:</label>
+                    <br>
+                    <label id="valorTransporte" class="valorTransporte"></label>
+                </div>
+
+                <div id="cx_valorHospedagem" class="cx_valorHospedagem">
+                    <label id="lb_valorHospedagem" class="lb_valorHospedagem">Total Hospedagem:</label>
+                    <br>
+                    <label id="valorHospedagem" class="valorHospedagem"></label>
+                </div>
+
+                <div id="cx_valorTotal" class="cx_valorTotal">
+                    <label id="lb_valorHospedagem" class="lb_valorHospedagem">Total Gasto:</label>
+                    <br>
+                    <label id="valorTransporte" class="valorTransporte"></label>
+                </div>
+
+            </div>
+        <div id="bot"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.div_pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: auto;
+    background-color: rgb(96, 120, 57);
+}
+
+.div_filho{
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(253, 235, 176);
+}
+
+.divColor{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+}
+
+.textoDiv{
+    color: white;
+    text-align: center;
+    padding: 5px
+}

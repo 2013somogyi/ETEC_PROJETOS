@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/form.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <script defer src="./js/logica.js"></script>
+    
+    
+    <title>Relatório</title>
+
+
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="div_pai" class="div_pai">
+            <div id="div-filho" class="div_filho">
+                <form action="" method="post">
+
+                    <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Valor do Veículo</label>
+                        <input type="text" name="valorVeiculo" id="valorVeiculo" class="form-control" placeholder="Digite somente números" maxlength="15" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="">Valor de entrada</label>
+                        <input type="text" name="valorEntrada" id="valorEntrada" class="form-control" placeholder="Digite somente números" maxlength="15" required>
+                    </div>
+                </div>
+                
+                <!--Quebra-->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Taxa de Juros</label>
+                        <input type="text" name="taxaJuros" id="taxaJuros" class="form-control" placeholder="Digite somente números" maxlength="15" required>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <label for="">Número de parcelas</label>
+                        <select name="nmrParcelas" id="nmrParcelas" class="form-select">
+                            <option value="12">12x</option>
+                            <option value="24">24x</option>
+                            <option value="36" selected>36x</option>
+                            <option value="48">48x</option>
+                            <option value="60">60x</option>
+                        </select>
+                    </div>
+                </div>
+                    <button type="reset" class="btn btn-danger">Limpar</button>
+                    <button onclick="validaFrm()" name="button" class="btn btn-success">Calcular</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>  
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(27, 27, 53);
+    
+}
+h1{
+    color: rgb(27, 244, 27);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p{
+    color: beige;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner-jornal{
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+}
+.imagem{
+    align-items: center;
+}

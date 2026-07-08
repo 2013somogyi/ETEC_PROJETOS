@@ -1,0 +1,15 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; /*Faz o colapso das bordas*/
+    width: 70%; /*Utiliza 70% da tela em largura*/
+    margin: 20px auto; /*Ajusta a margem afastando 20px do topo e centraliza horizontalmente automatico*/
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px; /*Posição da informação dentro da célula*/
+    text-align: center; /*Alinhamento de texto*/
+}
+thead {
+    background-color: rgb(22, 95, 95);
+}
+

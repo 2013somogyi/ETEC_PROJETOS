@@ -1,0 +1,74 @@
+/* Página */
+    body{
+        background-color: rgb(17, 17, 17);
+        background-image: url('../img/backgroundimg4.avif');
+    }
+/* Escrita */
+    p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border: solid;
+    }
+    .paragrafocurto{
+        width: 1000px;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    h3{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 36px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+/* Títulos */
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .titulos{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+    .titulos1{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+    }
+/* Links */
+    .linkbranco{
+        color: rgb(255, 255, 255);
+    }
+    a{
+        font-size: 30px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+/* Imagens */
+    img{
+        width: 600px;
+        height: 100%;
+        border: solid;
+    }
+    .imgpqn{
+        width:370px;
+        height:270px;
+        border: none;
+    }
+    .voltar{
+        width:40px;
+        height:40px;
+        display: block;
+        align-items: center;
+        border: none;
+    }
+    

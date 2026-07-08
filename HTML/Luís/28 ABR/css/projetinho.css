@@ -1,0 +1,36 @@
+.div_pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(24, 149, 207);
+    min-height: 100vh;
+}
+.div_filho {
+   padding: 15px;
+    background-color: rgb(120, 255, 199);
+    min-height: 65vh;
+    width: 90vw;
+    max-width: 800px;
+}
+
+.form-check-sm {
+    width: 1.938rem;   /* Aprox. 31px para igualar a altura do btn-sm */
+    height: 1.938rem;
+    margin-top: 0;     /* Remove o ajuste padrão para centralizar melhor */
+    vertical-align: middle;
+}
+
+.concluido {
+    text-decoration: line-through;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}

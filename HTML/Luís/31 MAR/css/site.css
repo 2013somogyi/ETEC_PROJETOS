@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #050a0f;
+}
+
+#screen {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    cursor: crosshair;
+}
+
+/* O corpo do dragão agora é uma linha grossa e fluida */
+#dragon-body {
+    fill: none;
+    stroke: url(#dragonGradient);
+    stroke-width: 25;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 0 12px #00ffcc);
+}
+
+/* A cabeça do dragão */
+#dragon-head {
+    fill: #00ffcc;
+    filter: drop-shadow(0 0 15px #00ffcc);
+}

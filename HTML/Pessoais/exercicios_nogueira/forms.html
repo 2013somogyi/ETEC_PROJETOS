@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+<body>
+    <div class="login-panel">
+        <h2>Acessar Conta</h2>
+
+        <form action="/index.html" method="post">
+    <div class="campo">
+        <label for="user">Nome de usuário ou E-mail</label><br>
+        <input type="text" id="user" name="user" placeholder="Seu usuário" required>
+    </div>
+            
+        <br>
+
+    <div class="campo">
+        <label for="pass">Senha:</label><br>
+        <input type="password" id="pass" name="pass" placeholder="Sua senha" required>
+    </div>
+
+        <br>
+
+        <button type="submit">Enter</button>
+
+    <p>
+        <a href="/index.html">Esqueceu a senha</a>
+    </p>
+        </form>
+    </div>
+</body>
+</html>
