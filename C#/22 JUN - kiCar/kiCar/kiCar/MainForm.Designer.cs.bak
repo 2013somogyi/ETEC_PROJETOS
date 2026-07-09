@@ -1,0 +1,516 @@
+﻿/*
+ * Criado por SharpDevelop.
+ * Usuário: lucas
+ * Data: 22/06/2026
+ * Hora: 19:51
+ * 
+ * Para alterar este modelo use Ferramentas | Opções | Codificação | Editar Cabeçalhos Padrão.
+ */
+namespace kiCar
+{
+	partial class MainForm
+	{
+		/// <summary>
+		/// Designer variable used to keep track of non-visual components.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+		private System.Windows.Forms.Panel panel1;
+		private System.Windows.Forms.PictureBox pbLogo;
+		private System.Windows.Forms.TabControl tabControl1;
+		private System.Windows.Forms.TabPage tabPage1;
+		private System.Windows.Forms.Panel panel3;
+		private System.Windows.Forms.PictureBox pbConsultar;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.TextBox txtNumero;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.TextBox txtSalario;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.ComboBox cbCargo;
+		private System.Windows.Forms.ComboBox cbSetor;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.TextBox txtNome;
+		private System.Windows.Forms.PictureBox pbSair;
+		private System.Windows.Forms.PictureBox pbLimpar;
+		private System.Windows.Forms.PictureBox pbSalvar;
+		private System.Windows.Forms.PictureBox pbNovo;
+		private System.Windows.Forms.TabPage tabPage2;
+		private System.Windows.Forms.ListBox listBox;
+		private System.Windows.Forms.PictureBox pbSair2;
+		private System.Windows.Forms.PictureBox pbLimpar2;
+		private System.Windows.Forms.PictureBox pbFiltrar;
+		private System.Windows.Forms.PictureBox pbListarTodos;
+		private System.Windows.Forms.Panel panel2;
+		private System.Windows.Forms.Label lbRegistro;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.TextBox txtTotalVendido;
+		private System.Windows.Forms.ToolTip toolTip1;
+		
+		/// <summary>
+		/// Disposes resources used by the form.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing) {
+				if (components != null) {
+					components.Dispose();
+				}
+			}
+			base.Dispose(disposing);
+		}
+		
+		/// <summary>
+		/// This method is required for Windows Forms designer support.
+		/// Do not change the method contents inside the source code editor. The Forms designer might
+		/// not be able to load this method if it was changed manually.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.pbLogo = new System.Windows.Forms.PictureBox();
+			this.tabControl1 = new System.Windows.Forms.TabControl();
+			this.tabPage1 = new System.Windows.Forms.TabPage();
+			this.label8 = new System.Windows.Forms.Label();
+			this.txtTotalVendido = new System.Windows.Forms.TextBox();
+			this.lbRegistro = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.panel3 = new System.Windows.Forms.Panel();
+			this.pbConsultar = new System.Windows.Forms.PictureBox();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.txtNumero = new System.Windows.Forms.TextBox();
+			this.label4 = new System.Windows.Forms.Label();
+			this.txtSalario = new System.Windows.Forms.TextBox();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.cbCargo = new System.Windows.Forms.ComboBox();
+			this.cbSetor = new System.Windows.Forms.ComboBox();
+			this.label1 = new System.Windows.Forms.Label();
+			this.txtNome = new System.Windows.Forms.TextBox();
+			this.pbSair = new System.Windows.Forms.PictureBox();
+			this.pbLimpar = new System.Windows.Forms.PictureBox();
+			this.pbSalvar = new System.Windows.Forms.PictureBox();
+			this.pbNovo = new System.Windows.Forms.PictureBox();
+			this.tabPage2 = new System.Windows.Forms.TabPage();
+			this.listBox = new System.Windows.Forms.ListBox();
+			this.pbSair2 = new System.Windows.Forms.PictureBox();
+			this.pbLimpar2 = new System.Windows.Forms.PictureBox();
+			this.pbFiltrar = new System.Windows.Forms.PictureBox();
+			this.pbListarTodos = new System.Windows.Forms.PictureBox();
+			this.panel2 = new System.Windows.Forms.Panel();
+			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+			this.panel1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+			this.tabControl1.SuspendLayout();
+			this.tabPage1.SuspendLayout();
+			this.panel3.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pbConsultar)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbSair)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbLimpar)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbSalvar)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbNovo)).BeginInit();
+			this.tabPage2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pbSair2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbLimpar2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbFiltrar)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbListarTodos)).BeginInit();
+			this.panel2.SuspendLayout();
+			this.SuspendLayout();
+			// 
+			// panel1
+			// 
+			this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+			this.panel1.Controls.Add(this.pbLogo);
+			this.panel1.Location = new System.Drawing.Point(28, 29);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(190, 588);
+			this.panel1.TabIndex = 0;
+			// 
+			// pbLogo
+			// 
+			this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
+			this.pbLogo.Location = new System.Drawing.Point(-121, -17);
+			this.pbLogo.Name = "pbLogo";
+			this.pbLogo.Size = new System.Drawing.Size(435, 243);
+			this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbLogo.TabIndex = 0;
+			this.pbLogo.TabStop = false;
+			// 
+			// tabControl1
+			// 
+			this.tabControl1.Controls.Add(this.tabPage1);
+			this.tabControl1.Controls.Add(this.tabPage2);
+			this.tabControl1.Location = new System.Drawing.Point(19, 14);
+			this.tabControl1.Name = "tabControl1";
+			this.tabControl1.SelectedIndex = 0;
+			this.tabControl1.Size = new System.Drawing.Size(685, 556);
+			this.tabControl1.TabIndex = 1;
+			// 
+			// tabPage1
+			// 
+			this.tabPage1.BackColor = System.Drawing.Color.AliceBlue;
+			this.tabPage1.Controls.Add(this.label8);
+			this.tabPage1.Controls.Add(this.txtTotalVendido);
+			this.tabPage1.Controls.Add(this.lbRegistro);
+			this.tabPage1.Controls.Add(this.label7);
+			this.tabPage1.Controls.Add(this.panel3);
+			this.tabPage1.Controls.Add(this.label4);
+			this.tabPage1.Controls.Add(this.txtSalario);
+			this.tabPage1.Controls.Add(this.label3);
+			this.tabPage1.Controls.Add(this.label2);
+			this.tabPage1.Controls.Add(this.cbCargo);
+			this.tabPage1.Controls.Add(this.cbSetor);
+			this.tabPage1.Controls.Add(this.label1);
+			this.tabPage1.Controls.Add(this.txtNome);
+			this.tabPage1.Controls.Add(this.pbSair);
+			this.tabPage1.Controls.Add(this.pbLimpar);
+			this.tabPage1.Controls.Add(this.pbSalvar);
+			this.tabPage1.Controls.Add(this.pbNovo);
+			this.tabPage1.Location = new System.Drawing.Point(4, 29);
+			this.tabPage1.Name = "tabPage1";
+			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+			this.tabPage1.Size = new System.Drawing.Size(677, 523);
+			this.tabPage1.TabIndex = 0;
+			this.tabPage1.Text = "Editar Dados";
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.Location = new System.Drawing.Point(33, 309);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(140, 25);
+			this.label8.TabIndex = 17;
+			this.label8.Text = "Total Vendido:";
+			// 
+			// txtTotalVendido
+			// 
+			this.txtTotalVendido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtTotalVendido.Location = new System.Drawing.Point(31, 337);
+			this.txtTotalVendido.Name = "txtTotalVendido";
+			this.txtTotalVendido.Size = new System.Drawing.Size(218, 30);
+			this.txtTotalVendido.TabIndex = 16;
+			// 
+			// lbRegistro
+			// 
+			this.lbRegistro.AutoSize = true;
+			this.lbRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbRegistro.Location = new System.Drawing.Point(497, 65);
+			this.lbRegistro.Name = "lbRegistro";
+			this.lbRegistro.Size = new System.Drawing.Size(23, 25);
+			this.lbRegistro.TabIndex = 15;
+			this.lbRegistro.Text = "0";
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.Location = new System.Drawing.Point(402, 65);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(89, 25);
+			this.label7.TabIndex = 14;
+			this.label7.Text = "Registro:";
+			// 
+			// panel3
+			// 
+			this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
+			this.panel3.Controls.Add(this.pbConsultar);
+			this.panel3.Controls.Add(this.label6);
+			this.panel3.Controls.Add(this.label5);
+			this.panel3.Controls.Add(this.txtNumero);
+			this.panel3.Location = new System.Drawing.Point(319, 104);
+			this.panel3.Name = "panel3";
+			this.panel3.Size = new System.Drawing.Size(328, 221);
+			this.panel3.TabIndex = 13;
+			// 
+			// pbConsultar
+			// 
+			this.pbConsultar.Image = ((System.Drawing.Image)(resources.GetObject("pbConsultar.Image")));
+			this.pbConsultar.Location = new System.Drawing.Point(166, 79);
+			this.pbConsultar.Name = "pbConsultar";
+			this.pbConsultar.Size = new System.Drawing.Size(129, 116);
+			this.pbConsultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbConsultar.TabIndex = 14;
+			this.pbConsultar.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbConsultar, "Pesquisar");
+			this.pbConsultar.Click += new System.EventHandler(this.PbConsultarClick);
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(27, 100);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(87, 25);
+			this.label6.TabIndex = 15;
+			this.label6.Text = "Número:";
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.BackColor = System.Drawing.Color.Transparent;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.ForeColor = System.Drawing.Color.Black;
+			this.label5.Location = new System.Drawing.Point(63, 16);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(205, 25);
+			this.label5.TabIndex = 14;
+			this.label5.Text = "Consultar por Registro";
+			// 
+			// txtNumero
+			// 
+			this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtNumero.Location = new System.Drawing.Point(25, 128);
+			this.txtNumero.Name = "txtNumero";
+			this.txtNumero.Size = new System.Drawing.Size(89, 30);
+			this.txtNumero.TabIndex = 14;
+			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(33, 241);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(79, 25);
+			this.label4.TabIndex = 12;
+			this.label4.Text = "Salário:";
+			// 
+			// txtSalario
+			// 
+			this.txtSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtSalario.Location = new System.Drawing.Point(31, 269);
+			this.txtSalario.Name = "txtSalario";
+			this.txtSalario.Size = new System.Drawing.Size(218, 30);
+			this.txtSalario.TabIndex = 11;
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(31, 170);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(72, 25);
+			this.label3.TabIndex = 10;
+			this.label3.Text = "Cargo:";
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(31, 99);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(65, 25);
+			this.label2.TabIndex = 9;
+			this.label2.Text = "Setor:";
+			// 
+			// cbCargo
+			// 
+			this.cbCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cbCargo.FormattingEnabled = true;
+			this.cbCargo.Location = new System.Drawing.Point(31, 198);
+			this.cbCargo.Name = "cbCargo";
+			this.cbCargo.Size = new System.Drawing.Size(218, 33);
+			this.cbCargo.TabIndex = 8;
+			// 
+			// cbSetor
+			// 
+			this.cbSetor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cbSetor.FormattingEnabled = true;
+			this.cbSetor.Items.AddRange(new object[] {
+			"Recursos Humanos",
+			"Vendas",
+			"Administração"});
+			this.cbSetor.Location = new System.Drawing.Point(29, 127);
+			this.cbSetor.Name = "cbSetor";
+			this.cbSetor.Size = new System.Drawing.Size(218, 33);
+			this.cbSetor.TabIndex = 7;
+			this.cbSetor.SelectedIndexChanged += new System.EventHandler(this.CbSetorSelectedIndexChanged);
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(31, 28);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(70, 25);
+			this.label1.TabIndex = 6;
+			this.label1.Text = "Nome:";
+			// 
+			// txtNome
+			// 
+			this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtNome.Location = new System.Drawing.Point(29, 60);
+			this.txtNome.Name = "txtNome";
+			this.txtNome.Size = new System.Drawing.Size(279, 30);
+			this.txtNome.TabIndex = 5;
+			// 
+			// pbSair
+			// 
+			this.pbSair.Image = ((System.Drawing.Image)(resources.GetObject("pbSair.Image")));
+			this.pbSair.Location = new System.Drawing.Point(519, 390);
+			this.pbSair.Name = "pbSair";
+			this.pbSair.Size = new System.Drawing.Size(129, 116);
+			this.pbSair.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbSair.TabIndex = 4;
+			this.pbSair.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbSair, "Sair");
+			this.pbSair.Click += new System.EventHandler(this.PbSairClick);
+			// 
+			// pbLimpar
+			// 
+			this.pbLimpar.Image = ((System.Drawing.Image)(resources.GetObject("pbLimpar.Image")));
+			this.pbLimpar.Location = new System.Drawing.Point(356, 390);
+			this.pbLimpar.Name = "pbLimpar";
+			this.pbLimpar.Size = new System.Drawing.Size(129, 116);
+			this.pbLimpar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbLimpar.TabIndex = 3;
+			this.pbLimpar.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbLimpar, "Limpar");
+			this.pbLimpar.Click += new System.EventHandler(this.PbLimparClick);
+			// 
+			// pbSalvar
+			// 
+			this.pbSalvar.Image = ((System.Drawing.Image)(resources.GetObject("pbSalvar.Image")));
+			this.pbSalvar.Location = new System.Drawing.Point(192, 390);
+			this.pbSalvar.Name = "pbSalvar";
+			this.pbSalvar.Size = new System.Drawing.Size(129, 116);
+			this.pbSalvar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbSalvar.TabIndex = 2;
+			this.pbSalvar.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbSalvar, "Salvar");
+			this.pbSalvar.Click += new System.EventHandler(this.PbSalvarClick);
+			// 
+			// pbNovo
+			// 
+			this.pbNovo.Image = ((System.Drawing.Image)(resources.GetObject("pbNovo.Image")));
+			this.pbNovo.Location = new System.Drawing.Point(29, 390);
+			this.pbNovo.Name = "pbNovo";
+			this.pbNovo.Size = new System.Drawing.Size(129, 116);
+			this.pbNovo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbNovo.TabIndex = 1;
+			this.pbNovo.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbNovo, "Criar Novo");
+			this.pbNovo.Click += new System.EventHandler(this.PbNovoClick);
+			// 
+			// tabPage2
+			// 
+			this.tabPage2.BackColor = System.Drawing.Color.AliceBlue;
+			this.tabPage2.Controls.Add(this.listBox);
+			this.tabPage2.Controls.Add(this.pbSair2);
+			this.tabPage2.Controls.Add(this.pbLimpar2);
+			this.tabPage2.Controls.Add(this.pbFiltrar);
+			this.tabPage2.Controls.Add(this.pbListarTodos);
+			this.tabPage2.Location = new System.Drawing.Point(4, 29);
+			this.tabPage2.Name = "tabPage2";
+			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+			this.tabPage2.Size = new System.Drawing.Size(677, 523);
+			this.tabPage2.TabIndex = 1;
+			this.tabPage2.Text = "Visualizar Listas";
+			// 
+			// listBox
+			// 
+			this.listBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.listBox.FormattingEnabled = true;
+			this.listBox.ItemHeight = 25;
+			this.listBox.Location = new System.Drawing.Point(29, 29);
+			this.listBox.Name = "listBox";
+			this.listBox.Size = new System.Drawing.Size(618, 329);
+			this.listBox.TabIndex = 9;
+			// 
+			// pbSair2
+			// 
+			this.pbSair2.Image = ((System.Drawing.Image)(resources.GetObject("pbSair2.Image")));
+			this.pbSair2.Location = new System.Drawing.Point(519, 390);
+			this.pbSair2.Name = "pbSair2";
+			this.pbSair2.Size = new System.Drawing.Size(129, 116);
+			this.pbSair2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbSair2.TabIndex = 8;
+			this.pbSair2.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbSair2, "Sair");
+			this.pbSair2.Click += new System.EventHandler(this.PbSairClick);
+			// 
+			// pbLimpar2
+			// 
+			this.pbLimpar2.Image = ((System.Drawing.Image)(resources.GetObject("pbLimpar2.Image")));
+			this.pbLimpar2.Location = new System.Drawing.Point(356, 390);
+			this.pbLimpar2.Name = "pbLimpar2";
+			this.pbLimpar2.Size = new System.Drawing.Size(129, 116);
+			this.pbLimpar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbLimpar2.TabIndex = 7;
+			this.pbLimpar2.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbLimpar2, "Limpar");
+			this.pbLimpar2.Click += new System.EventHandler(this.PbLimparClick);
+			// 
+			// pbFiltrar
+			// 
+			this.pbFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("pbFiltrar.Image")));
+			this.pbFiltrar.Location = new System.Drawing.Point(192, 390);
+			this.pbFiltrar.Name = "pbFiltrar";
+			this.pbFiltrar.Size = new System.Drawing.Size(129, 116);
+			this.pbFiltrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbFiltrar.TabIndex = 6;
+			this.pbFiltrar.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbFiltrar, "Filtrar Bônus");
+			this.pbFiltrar.Click += new System.EventHandler(this.PbFiltrarClick);
+			// 
+			// pbListarTodos
+			// 
+			this.pbListarTodos.Image = ((System.Drawing.Image)(resources.GetObject("pbListarTodos.Image")));
+			this.pbListarTodos.Location = new System.Drawing.Point(29, 390);
+			this.pbListarTodos.Name = "pbListarTodos";
+			this.pbListarTodos.Size = new System.Drawing.Size(129, 116);
+			this.pbListarTodos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pbListarTodos.TabIndex = 5;
+			this.pbListarTodos.TabStop = false;
+			this.toolTip1.SetToolTip(this.pbListarTodos, "Ver Todos");
+			this.pbListarTodos.Click += new System.EventHandler(this.PbListarTodosClick);
+			// 
+			// panel2
+			// 
+			this.panel2.BackColor = System.Drawing.Color.CornflowerBlue;
+			this.panel2.Controls.Add(this.tabControl1);
+			this.panel2.Location = new System.Drawing.Point(254, 29);
+			this.panel2.Name = "panel2";
+			this.panel2.Size = new System.Drawing.Size(723, 588);
+			this.panel2.TabIndex = 2;
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Navy;
+			this.ClientSize = new System.Drawing.Size(1011, 634);
+			this.Controls.Add(this.panel2);
+			this.Controls.Add(this.panel1);
+			this.MaximizeBox = false;
+			this.Name = "MainForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "kiCar";
+			this.panel1.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+			this.tabControl1.ResumeLayout(false);
+			this.tabPage1.ResumeLayout(false);
+			this.tabPage1.PerformLayout();
+			this.panel3.ResumeLayout(false);
+			this.panel3.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pbConsultar)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbSair)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbLimpar)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbSalvar)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbNovo)).EndInit();
+			this.tabPage2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pbSair2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbLimpar2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbFiltrar)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pbListarTodos)).EndInit();
+			this.panel2.ResumeLayout(false);
+			this.ResumeLayout(false);
+
+		}
+	}
+}

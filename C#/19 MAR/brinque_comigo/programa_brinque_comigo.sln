@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programa_brinque_comigo", "programa_brinque_comigo\programa_brinque_comigo.csproj", "{F6B2C435-6A80-45D4-AE38-7462B22DA9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B2C435-6A80-45D4-AE38-7462B22DA9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B2C435-6A80-45D4-AE38-7462B22DA9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B2C435-6A80-45D4-AE38-7462B22DA9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B2C435-6A80-45D4-AE38-7462B22DA9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
